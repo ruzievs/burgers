@@ -1,0 +1,228 @@
+/* @media (max-width:1440px) {} */
+/* @media (max-width:1366px) {} */
+/* @media (max-width:1320px) {} */
+/* @media (max-width:1290px) {} */
+/* @media (max-width:1040px) {} */
+@media (max-width:1024px) {
+    .header__container{
+        margin: 15px;
+    }
+}
+@media (max-width:992px) {
+    .header__title{
+        font-size: 60px;
+    }
+    .nav__logo{
+        margin-left: 10px;
+    } 
+    .staek__txt{
+        font-size: 12px;
+    }
+}
+@media (max-width:850px) {
+    .nav{
+        padding: 5px 0 0 0;
+    }
+    .nav__logo{
+        margin-left: 10px;
+    }
+    .header__title{
+        font-size: 50px;
+    }
+    .header__food-txt{
+        padding: 20px 60px;
+    }
+    .header__food-txt{
+        padding: 10px 50px;
+        font-size: 40px;
+    }
+    .header__btn{
+        padding: 10px 50px;
+    }
+}
+/* @media (max-width:768px) {} */
+@media (max-width:736px) {
+    .nav__list {
+        display: none;
+    }
+
+    .nav.active .nav__list {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        background: #000;
+        z-index: 100;
+    }
+
+    .hamburger-menu {
+        height: 64px;
+        width: 46px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        z-index: 101;
+    }
+    
+    .bar {
+        width: 31px;
+        height: 1.5px;
+        border-radius: 2px;
+        background-color: #eee;
+        transition: 0.5s;
+        position: relative;
+    }
+    
+    .bar:before, .bar:after {
+        content: '';
+        position: absolute;
+        width: inherit;
+        height: inherit;
+        background-color: #eee;
+        transition: 0.5s;
+    }
+    
+    .bar:before {
+        transform: translateY(-9px);
+    }
+    .bar:after {
+        transform: translateY(9px);
+    }
+    .nav.active .bar {
+        transform: rotate(360deg);
+        background-color: transparent;
+    }
+    
+    .nav.active .bar::before {
+        transform: translateY(0) rotate(45deg);
+    }
+    .nav.active .bar::after {
+        transform: translateY(0) rotate(-45deg);
+    }
+
+    .nav__box {
+        padding: 0 15px 0 0;
+    }
+
+    h4 {
+        font-size: 30px;
+    }
+
+    .header__txt {
+        font-size: 14px;
+    }
+
+    .ads__span {
+        font-size: 12px;
+    }
+
+    .ads__rec {
+        font-size: 12px;
+    }
+
+    .finish__title {
+        font-size: 35px;
+    }
+
+}
+/* @media (max-width:734px) {} */
+@media (max-width:684px) {
+    .header__title{
+        font-size: 45px;
+    }
+    .foots{
+        margin-bottom: 40px;
+    }
+    .footer__menu{
+        margin-bottom: 50px;
+    }
+    
+}
+/* @media (max-width:667px) {} */
+/* @media (max-width:576px) {} */
+@media (max-width:414px) {
+    .header__title{
+        font-size: 30px;
+    }
+    h4{
+        font-size: 25px;
+    }
+    .header__txt{
+      font-size: 12px;
+    }
+    .header__food-txt{
+        padding: 5px 30px;
+        font-size: 35px;
+    }
+    .header__btn{
+        padding: 8px 35px;
+        font-size: 15px;
+    }
+    .nav__banner{
+        width: 180px;
+    }
+    .footer__nav-logo{
+        width: 180px;
+    }
+    .foter__foot-link{
+        font-size: 14px;
+    }
+    .main__link{
+        font-size: 12px;
+    }
+}
+/* @media (max-width:412px) {} */
+@media (max-width:375px) {
+    .header__title{
+        font-size: 25px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    .header__txt{
+        font-size: 10px;
+    }
+    .steak__title{
+        font-size: 30px;
+      }
+}
+/* @media (max-width:360px) {} */
+@media (max-width:320px) {
+    .ads__span{
+        font-size: 10px;
+    }
+    .ads__rec{
+        font-size: 10px;
+    }
+    .header__btns{
+        display: grid;
+        place-items: center;
+        row-gap: 10px;
+    }
+    .header__btn{
+        margin: 0;
+    }
+    .nav__menu{
+        width: 30px;
+    }
+    .main__link{
+        font-size: 10px;
+    }
+    .footer__call{
+        font-size: 12px;
+    }
+    .footer__nav-logo{
+        width: 150px;
+    }
+    .foter__foot-link{
+        font-size: 12px;
+    }
+    .footer__link{
+        font-size: 15px;
+    }
+}
